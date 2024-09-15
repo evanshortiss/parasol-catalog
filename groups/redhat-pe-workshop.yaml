@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: redhat-pe-workshop
+  namespace: default
+  description: "The Red Hat PE Workshop team responsible for the Parasol system and related components"
+  tags:
+    - team
+    - redhat
+spec:
+  type: team
+  profile:
+    displayName: "Red Hat PE Workshop"
+    email: redhat-pe-workshop@example.com
+  members:
+    - user:johndoe
+    - user:janesmith
+  children: []
+  parent: default

@@ -6,6 +6,8 @@ metadata:
 spec:
   type: url
   targets:
-    - parasol-web/catalog-info.yaml
-    - parasol-store-app/catalog-info.yaml
-    - parasol-db/catalog-info.yaml
+    - system/parasol.yaml
+    - groups/redhat-pe-workshop.yaml
+    - components/parasol-web/catalog-info.yaml
+    - components/parasol-store-app/catalog-info.yaml
+    - components/parasol-db/catalog-info.yaml

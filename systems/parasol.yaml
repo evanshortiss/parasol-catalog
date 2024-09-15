@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: parasol
+  description: "Parasol system for the Red Hat PE Workshop"
+  owner: redhat-pe-workshop
+  tags:
+    - parasol
+    - redhat
+spec:
+  domain: redhat-pe
+  owner: redhat-pe-workshop
+  lifecycle: experimental
