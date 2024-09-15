@@ -19,4 +19,20 @@ spec:
   system: parasol
   repository: https://github.com/redhat-pe-workshop/parasol-store-app
   dependsOn:
-    - techdocs:backstage.io/techdocs-ref
+    - component:default/parasol-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: parasol-store-app-api
+  description: "OpenAPI specification for the Parasol Store Application"
+  owner: redhat-pe-workshop
+  tags:
+    - api
+    - openapi
+    - parasol
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: redhat-pe-workshop
+  definition: https://raw.githubusercontent.com/OAI/OpenAPI-Specification/refs/heads/main/examples/v3.0/api-with-examples.yaml

@@ -22,4 +22,4 @@ spec:
   system: parasol
   repository: https://github.com/redhat-pe-workshop/parasol-web
   dependsOn:
-    - techdocs:backstage.io/techdocs-ref
+    - component:default/parasol-store-app
