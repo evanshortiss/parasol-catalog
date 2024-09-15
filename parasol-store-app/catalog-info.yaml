@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parasol-store-app
+  description: "Store application component for the Parasol project in the Red Hat PE Workshop"
+  owner: redhat-pe-workshop
+  annotations:
+    github.com/project-slug: redhat-pe-workshop/parasol-store-app
+    backstage.io/techdocs-ref: url:https://github.com/redhat-pe-workshop/parasol-store-app
+  tags:
+    - application
+    - store
+    - parasol
+    - redhat
+spec:
+  type: service
+  lifecycle: experimental
+  owner: redhat-pe-workshop
+  system: parasol
+  repository: https://github.com/redhat-pe-workshop/parasol-store-app
+  dependsOn:
+    - techdocs:backstage.io/techdocs-ref

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: parasol-catalog-info
+  description: List of URLs to import as catalog-info.yaml files for the Parasol components.
+spec:
+  type: url
+  targets:
+    - parasol-web/catalog-info.yaml
+    - parasol-store-app/catalog-info.yaml
+    - parasol-db/catalog-info.yaml
