@@ -23,3 +23,5 @@ spec:
   repository: https://github.com/redhat-pe-workshop/parasol-web
   dependsOn:
     - component:default/parasol-store-app
+  consumesApis:
+    - default/parasol-store-app-api
