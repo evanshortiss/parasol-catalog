@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: redhat-pe
+  namespace: default
+  description: "The Red Hat PE domain encompassing all systems and components for the PE Workshop"
+  tags:
+    - domain
+    - redhat
+spec:
+  owner: default/redhat-pe-workshop
+  lifecycle: production
