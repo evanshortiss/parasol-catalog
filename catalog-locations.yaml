@@ -7,6 +7,7 @@ spec:
   type: url
   targets:
     - systems/parasol.yaml
+    - domains/redhat-pe.yaml
     - groups/redhat-pe-workshop.yaml
     - components/parasol-web/catalog-info.yaml
     - components/parasol-store-app/catalog-info.yaml
