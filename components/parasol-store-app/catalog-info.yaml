@@ -38,4 +38,4 @@ spec:
   lifecycle: experimental
   owner: redhat-pe-workshop
   definition: 
-    $yaml: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/api-with-examples.yaml
+    $text: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/api-with-examples.yaml
