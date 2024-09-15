@@ -20,6 +20,8 @@ spec:
   repository: https://github.com/redhat-pe-workshop/parasol-store-app
   dependsOn:
     - component:default/parasol-db
+  providesApis:
+    - default/parasol-store-app-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
