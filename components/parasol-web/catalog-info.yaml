@@ -11,6 +11,7 @@ metadata:
     - web
     - application
     - redhat
+    - parasol
   links:
     - url: https://redhat.com
       title: Red Hat Site
