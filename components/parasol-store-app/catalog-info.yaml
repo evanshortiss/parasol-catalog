@@ -5,6 +5,7 @@ metadata:
   description: "Store application component for the Parasol project in the Red Hat PE Workshop"
   owner: redhat-pe-workshop
   annotations:
+    argocd/app-selector: rhdh.app/name=parasol
     github.com/project-slug: redhat-pe-workshop/parasol-store-app
     backstage.io/techdocs-ref: url:https://github.com/redhat-pe-workshop/parasol-store-app
   tags:
